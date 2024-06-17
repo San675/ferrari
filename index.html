@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+fIhFuAufp1FgSNP+pEI0kNTtfUpF2lSZKobDwEoGo0EC6h" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="bg-danger text-white py-4">
+        <div class="container">
+            <h1 class="text-center">Bienvenido a Ferrari</h1>
+        </div>
+    </header>
+
+    <nav class="bg-dark text-white py-2">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <a href="#historia" class="nav-link">Historia</a>
+                <a href="#deportes" class="nav-link">Deportes</a>
+                <a href="#modelos" class="nav-link">Modelos</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="historia" class="py-5">
+        <div class="container">
+            <article>
+                <h2 class="text-center mb-4">Historia de Ferrari</h2>
+                <p>Ferrari es una marca italiana de autos deportivos de lujo fundada por Enzo Ferrari en 1939 bajo el nombre de Auto Avio Costruzioni. La compañía construyó su primer automóvil en 1940. Sin embargo, la marca Ferrari no debutó en el mercado hasta 1947 cuando se completó el primer automóvil con el nombre Ferrari, el 125 S. Este vehículo fue la base para el futuro de Ferrari como fabricante de autos deportivos y su participación en carreras automovilísticas.</p>
+                <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\125s.jpg" alt="Ferrari 125 S" class="img-fluid rounded" />
+                <p>Desde entonces, Ferrari ha sido sinónimo de velocidad y rendimiento en el automovilismo. Con una rica historia en carreras, Ferrari ha obtenido numerosos éxitos en competiciones como la Fórmula Uno, donde es el equipo más antiguo y exitoso. Ha ganado más campeonatos de constructores y campeonatos de pilotos que cualquier otro equipo desde su primera temporada en 1950.</p>
+            </article>
+        </div>
+    </section>
+    
+    <section id="deportes" class="py-5 bg-light">
+        <div class="container">
+            <article>
+                <div class="d-flex flex-wrap justify-content-around">
+                    <div class="f1-pilots">
+                        <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\bc4a70533f8e73a5a8baa37af8a2cf4c.jpg" alt="Niki Lauda con su Ferrari" class="img-fluid rounded" />
+                        <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\desktop-wallpaper-michael-schumacher-the-true-fighter-podium.jpg" alt="Michael Schumacher con su Ferrari" class="img-fluid rounded" />
+                        <img src="data:image/jpeg;base64,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" alt="Sebastian Vettel con su Ferrari" class="img-fluid rounded" />
+                        <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\OIP.jpeg" alt="Charles Leclerc con su Ferrari" class="img-fluid rounded" />
+                    </div>
+                </div>
+                <p class="mt-4">Además de su legado en la Fórmula Uno, Ferrari ha competido y ganado en otras categorías como las carreras de resistencia, incluyendo las famosas 24 Horas de Le Mans.</p>
+                <div class="d-flex flex-wrap justify-content-around">
+                    <div class="le-mans">
+                        <img src="https://www.insidehook.com/wp-content/uploads/2019/11/lemans_ferrarispyder.jpg?fit=1500%2C1000&resize=1500%2C1000" alt="Ferrari en 24 Horas de Le Mans" width 650="img-fluid rounded" />
+                        <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\ferrari-499p-2023-05.jpg" alt="Ferrari ganando en Le Mans" width="650" class="img-fluid rounded" />
+                    </div>
+                </div>
+                <p>La marca también es conocida por su participación en eventos como el Campeonato Mundial de Resistencia y las series GT.</p>
+                <div class="d-flex flex-wrap justify-content-around">
+                    <div class="side-by-side">
+                        <img src="https://wallpapercave.com/wp/wp5166442.jpg" width 400="Modelo actual de Ferrari" class="img-fluid rounded" />
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section id="modelos" class="py-5">
+        <div class="container">
+            <article>
+                <h2 class="text-center mb-4">Modelos Actuales</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari SF90 Stradale</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\R (3).jpeg" alt="Ferrari SF90 Stradale" class="img-fluid rounded">
+                            <p>El SF90 Stradale es el primer híbrido enchufable de Ferrari, ofreciendo una combinación impresionante de rendimiento y eficiencia.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari F8 Tributo</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\ferrari_f8_tributo_2019_4k-HD.jpg" alt="Ferrari F8 Tributo" class="img-fluid rounded">
+                            <p>El F8 Tributo rinde homenaje al motor V8 más potente en la historia de Ferrari, con un rendimiento excepcional y un diseño aerodinámico.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari Roma</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\R (4).jpeg" alt="Ferrari Roma" class="img-fluid rounded">
+                            <p>El Ferrari Roma es un gran turismo con un diseño elegante y contemporáneo, que ofrece una experiencia de conducción emocionante y refinada.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari Portofino M</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\wp9191455.jpg" alt="Ferrari Portofino M" class="img-fluid rounded">
+                            <p>El Portofino M es un convertible versátil que combina rendimiento, elegancia y confort, ideal para la conducción diaria o viajes largos.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari 812 Superfast</h3>
+                            <img src="https://www.motortrend.com/uploads/sites/5/2018/06/2018-Ferrari-812-Superfast-front-three-quarter-in-motion.jpg" alt="Ferrari 812 Superfast" class="img-fluid rounded">
+                            <p>El 812 Superfast es el Ferrari con motor V12 de producción más potente hasta la fecha, ofreciendo una velocidad y una potencia sin precedentes.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari Monza SP1/SP2</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\Novitec Ferrari Monza SP1 and SP2-8.jpg" alt="Ferrari Monza SP1/SP2" class="img-fluid rounded">
+                            <p>Los Monza SP1 y SP2 son parte de la serie especial 'Icona' de Ferrari, inspirados en los legendarios autos de carreras de los años 50.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari F40</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\Ferrari-F40-icon-14-1536x863.jpg" alt="Ferrari F40" class="img-fluid rounded">
+                            <p>El F40 es uno de los superdeportivos más emblemáticos de Ferrari y fue diseñado para celebrar el 40 aniversario de la marca.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari Testarossa</h3>
+                            <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\ferrari-testarossa.jpg" alt="Ferrari Testarossa" class="img-fluid rounded">
+                            <p>El Testarossa es un clásico que captura la esencia del diseño y la ingeniería italiana de los años 80.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="modelo text-center p-3 bg-light">
+                            <h3>Ferrari LaFerrari</h3>
+                            <img src="https://k-vod.uecdn.es/p/110/sp/11000/thumbnail/entry_id/0_vjh5n862/version/100032/width/412/height/232" alt="Ferrari LaFerrari" class="img-fluid rounded">
+                            <p>LaFerrari es uno de los hipercoches más avanzados de Ferrari, con un motor híbrido que combina un motor V12 con un motor eléctrico para una potencia impresionante.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.instagram.com/ferrari" target="_blank" class="me-3">
+                    <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\instagram-40.png" alt="Instagram" width="30"/>
+                </a>
+                <a href="https://twitter.com/Ferrari" target="_blank" class="me-3">
+                    <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\twitter-40.png" alt="Twitter" width="30"/>
+                </a>
+                <a href="https://www.facebook.com/Ferrari" target="_blank">
+                    <img src="C:\Users\santy\OneDrive\Escritorio\html\AP\Desafio 7\img\facebook-40.png" alt="Facebook" width="30"/>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-ZcCjg3n9rC0nXaCHJvYU5NlV1+HjgCAsP7/ME6MZhF0qu1HMaOQW3auW/M+WzKjp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-cZG4Qw3q2bP5Sj8p+HF6lrG5KRwO5KZ+MW03iZ6ymP4Yl0vAD2r4eF2vwo/QJUH9" crossorigin="anonymous"></script>
+</body>
+</html>
